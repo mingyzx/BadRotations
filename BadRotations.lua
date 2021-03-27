@@ -1,4 +1,5 @@
 -- define br global that will hold the bot global background features
+_G.br=br
 local _, br = ...
 br._G = setmetatable({}, {__index = _G})
 br.unlock = {}
